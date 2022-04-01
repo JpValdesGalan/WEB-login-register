@@ -1,0 +1,34 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1280px;
+    min-width: 480px;
+    margin: auto;
+    background-color: beige;
+}
+
+h1 {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+}
+
+li a {
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: antiquewhite;
+}
